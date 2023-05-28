@@ -1,0 +1,33 @@
+<div class="full">
+  <header class="flex">
+    <div class="flex image-holder">
+      <img src="assets/pic.png" alt="">
+    </div>
+    <div class="user-session">
+      <span>test@test.com </span>
+    </div>
+  </header>
+  <section class="container full">
+    <nav class="flex flex-column font-header">
+      <li class="full">
+        <ul class="container-header">
+          Navigation
+        </ul>
+        <ul>
+          <a [routerLink]="['about']"> About </a>
+        </ul>
+        <ul>
+          <a [routerLink]="['chart']"> Chart </a>
+        </ul>
+      </li>
+    </nav>
+    <section class="container-master">
+      <router-outlet></router-outlet>
+    </section>
+  </section>
+  <footer class="flex">
+    <span>
+      © 2020 X Technologies GmbH
+    </span>
+  </footer>
+</div>

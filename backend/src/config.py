@@ -1,0 +1,1 @@
+POWER_MEASUREMENTS_FILE="./src/consume/infrastructure/data_sources/file_system/measurements.json"

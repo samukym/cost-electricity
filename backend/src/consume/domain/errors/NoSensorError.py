@@ -1,0 +1,2 @@
+class SensorNotFoundError(Exception):
+    pass

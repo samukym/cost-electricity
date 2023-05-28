@@ -1,0 +1,15 @@
+<div>
+  <div class="flex container-header font-header">
+    <span> CHART </span>
+    <div class="options">
+      <select [(ngModel)]="selectedOption" (change)="onSelectionChange()">
+        <option *ngFor="let sensorId of sensorIds" [value]="sensorId">
+          {{ sensorId }}
+        </option>
+      </select>
+    </div>
+  </div>
+  <div class="container">
+    <app-chart [consumeCost]="consumeCost"></app-chart>
+  </div>
+</div>

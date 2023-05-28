@@ -1,0 +1,40 @@
+<div class="container">
+  <p class="title">The Challenges of the Coding Challenge</p>
+
+  <ul>
+    <li>
+      Explore the dataset for first time to have an idea and how it was it and
+      check null and invalid values
+    </li>
+    <li>
+      Decide how to load the measurements file and decide if keep it in memory
+      or read/query by chunks
+    </li>
+    <li>
+      Implement time's range in the backend so the client could fetch data
+      little by little in case the dataset was real
+    </li>
+  </ul>
+
+  <p class="title">Implementation notes</p>
+  <ul>
+    <li>
+      Backend: I decide to use a domain centric architecture to isolate the
+      logic of the domain from the acces of data or concrete technologies
+    </li>
+    <li>Backend: FileRespository should be a singleton (time restriction)</li>
+    <li>
+      Backend: Cover more input params validation in the API (time restriction)
+    </li>
+    <li>
+      Front: I wanted to stick to the specs and I didn't want to create more
+      componentes that they were said, but I personally would do it: header,
+      footer, sensor-selector and navbar.
+    </li>
+    <li>Front: Cover some test the front (restriction time)</li>
+  </ul>
+
+  <p class="title">Time assessment</p>
+
+  <p>8h</p>
+</div>

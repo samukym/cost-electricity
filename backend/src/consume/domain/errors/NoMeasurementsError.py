@@ -1,0 +1,2 @@
+class NoMeasurementsError(Exception):
+    pass
